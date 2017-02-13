@@ -9,9 +9,6 @@ LOCAL_PATH := device/samsung/gprimeltecan
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltecan/overlay
 
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/dt.img:dt.img
-
 # Configuration
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/Diag.cfg:system/etc/Diag.cfg \
